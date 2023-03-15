@@ -1,7 +1,8 @@
 {
   "name": "swc-starter",
+  "main": "dist/index.js",
   "scripts": {
-    "build": "swc ./index.js -o dist/index.js"
+    "build": "swc ./index.ts -o dist/index.js"
   },
   "devDependencies": {
     "@swc/cli": "^0.1.62",
